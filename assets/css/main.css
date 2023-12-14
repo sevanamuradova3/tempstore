@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  width: 90%;
+}
+header .iconsDiv {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#jackets {
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/cozastore/images/slide-03.jpg);
+}
+
+#cards {
+  width: 100%;
+  height: auto;
+  margin: 28px;
+}
+#cards .text {
+  position: absolute;
+  z-index: 1;
+  padding-top: 25px;
+}
+#cards .text h4 {
+  font-weight: bold;
+}
+#cards img {
+  position: relative;
+  width: 300px;
+}
+
+#productOverview {
+  width: 100%;
+  height: auto;
+}
+#productOverview h1 {
+  font-weight: bold;
+}
+#productOverview ul {
+  list-style-type: none;
+  display: flex;
+}
+#productOverview ul li {
+  margin-right: 20px;
+}
+#productOverview .headPro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#productOverview .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#productOverview #customers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#productOverview .cardBox {
+  width: 20%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 15px;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#productOverview .cardBox img {
+  width: 80%;
+  height: 100px;
+}
+#productOverview .cardTextBox {
+  height: 30%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#productOverview button {
+  width: 60px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  background-color: antiquewhite;
+  transition: 0.5s;
+  color: black;
+}
+#productOverview button:hover {
+  transition: 0.5s;
+  cursor: pointer;
+}
+#productOverview .header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 60px;
+  border-bottom: 1px solid gray;
+  align-items: center;
+}
+#productOverview .cartButton {
+  display: flex;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  position: relative;
+}
+#productOverview .cartCount {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
